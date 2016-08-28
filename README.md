@@ -1,16 +1,15 @@
-# Brawlbot v2
-[![Build Status](https://travis-ci.org/Brawl345/Brawlbot-v2.svg?branch=master)](https://travis-ci.org/Brawl345/Brawlbot-v2)
+# HiddenBotV1
 
 Der multifunktionale Telegram-Bot.
 
-[Offizielle Webseite](https://brawlbot.tk) | [Entwickler auf Telegram](http://telegram.me/Brawl) **KEIN SUPPORT!** | [Offizieller Kanal](https://telegram.me/brawlbot_updates)
+[Offizielle Webseite](https://hiddendatabase.de.tl) | [Entwickler auf Telegram](http://telegram.me/Yamathedestroyer) **KEIN SUPPORT!** |
 
-Brawlbot ist ein auf Plugins basierender Bot, der die [offizielle Telegram Bot API](http://core.telegram.org/bots/api) benutzt. Ursprünglich wurde er im Dezember 2014 auf Basis von Yagops [Telegram Bot](https://github.com/yagop/telegram-bot/) entwickelt, da aber die Entwicklung von tg-cli [zum Stillstand](https://brawlbot.tk/posts/ein-neuanfang) gekommen ist, wurden alle Plugins des bisher proprietären Brawlbots im Juni 2016 auf die Bot-API portiert und open-sourced.  
-**Brawlbot v2 basiert auf [otouto](https://github.com/topkecleon/otouto) von Topkecleon.**
+HiddenBot ist ein auf Plugins basierender Bot, der die [offizielle Telegram Bot API](http://core.telegram.org/bots/api) benutzt. 
+**HiddenBotV1 basiert auf [Brawlbot](https://github.com/Brawl345/Brawlbot-v2) von Brawl345.**
 
 **HINWEIS::** Ich gebe KEINEN Support für das Aufsetzen des Bots!
 
-Brawlbot v2 ist freie Software; du darfst ihn modifizieren und weiterverbreiten, allerdings musst du dich an die GNU Affero General Public License v3 halten, siehe **LICENSE** für Details.
+Hiddenbot ist freie Software; du darfst ihn modifizieren und weiterverbreiten, allerdings musst du dich an die GNU Affero General Public License v3 halten, siehe **LICENSE** für Details.
 
 ##Anleitung
 
@@ -75,9 +74,6 @@ Dieses Feature wird in Brawlbot nicht unterstützt.
 
 ## Liste aller Plugins
 
-Brawlbot erhält laufend neue Plugins und wird kontinuierlich weiterentwickelt! Siehe [hier](https://github.com/Brawl345/Brawlbot-v2/tree/master/otouto/plugins) für eine Liste aller Plugins.
-
-* * *
 #Für Entwickler
 ## Plugins
 Brawlbot benutzt ein Plugin-System, ähnlich Yagops [Telegram-Bot](http://github.com/yagop/telegram-bot).
@@ -157,7 +153,7 @@ Falls erfolgreich, wird bindings das deserialisierte Ergebniss der API zurückge
 * * *
 
 ## Datenbank
-Brawlbot benutzt eine interne Datenbank, wie Otouto sie benutzt und Redis. Die "Datenbank" ist eine Tabelle, auf die über die Variable `database` zugegriffen werden kann (normalerweise `self.database`) und die als JSON-encodierte Plaintext-Datei jede Stunde gespeichert wird oder wenn der Bot gestoppt wird (über `/halt`).
+Hiddenbot benutzt eine interne Datenbank, wie Brawlbot sie benutzt und Redis. Die "Datenbank" ist eine Tabelle, auf die über die Variable `database` zugegriffen werden kann (normalerweise `self.database`) und die als JSON-encodierte Plaintext-Datei jede Stunde gespeichert wird oder wenn der Bot gestoppt wird (über `/halt`).
 
 Das ist die Datenbank-Struktur:
 
